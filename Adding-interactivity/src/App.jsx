@@ -1,5 +1,6 @@
 import Button from "./Button";
 import Toolbar from "./Toolbar";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1>Welcome to the App!</h1>
       <Button />
       <Toolbar />
+      <Gallery />
     </div>
   );
 }
