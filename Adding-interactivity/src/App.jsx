@@ -1,6 +1,8 @@
 import Button from "./Button";
 import Toolbar from "./Toolbar";
+import Form from "./components/Form";
 import Gallery from "./components/Gallery";
+import MovingDot from "./components/MovingDot";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Button />
       <Toolbar />
       <Gallery />
+      <MovingDot />
+      <Form />
     </div>
   );
 }
