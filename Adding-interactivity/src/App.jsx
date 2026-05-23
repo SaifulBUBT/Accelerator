@@ -4,6 +4,8 @@ import Form from "./components/Form";
 import Gallery from "./components/Gallery";
 import MovingDot from "./components/MovingDot";
 
+import List from "./Arrays_in_state/AddingItems";
+
 function App() {
   return (
     <div>
@@ -13,6 +15,7 @@ function App() {
       <Gallery />
       <MovingDot />
       <Form />
+      <List />
     </div>
   );
 }
