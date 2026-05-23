@@ -5,7 +5,7 @@ import Gallery from "./components/Gallery";
 import MovingDot from "./components/MovingDot";
 
 import List from "./Arrays_in_state/AddingItems";
-
+import RemoveItems from "./Arrays_in_state/RemoveItems";
 function App() {
   return (
     <div>
@@ -16,6 +16,7 @@ function App() {
       <MovingDot />
       <Form />
       <List />
+      <RemoveItems />
     </div>
   );
 }
