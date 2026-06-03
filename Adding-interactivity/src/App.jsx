@@ -5,7 +5,7 @@
 // import MovingDot from "./components/MovingDot";
 
 // import List from "./Arrays_in_state/AddingItems";
-// import RemoveItems from "./Arrays_in_state/RemoveItems";
+import RemoveItems from "./Arrays_in_state/RemoveItems";
 
 import TransformingItems from "./Arrays_in_state/TransformingItems";
 import UpdatingObjectsInsideArray from "./Arrays_in_state/UpdatingObjectsInsideArray";
@@ -18,8 +18,8 @@ function App() {
       <Gallery />
       <MovingDot />
       <Form />
-      <List />
-      <RemoveItems /> */}
+      <List />*/}
+      <RemoveItems />
       <TransformingItems />
       <UpdatingObjectsInsideArray />
     </div>

@@ -13,14 +13,14 @@ export default function RemoveItems() {
       <h2>Inspiring sculptors:</h2>
       <ul>
         {artists.map((artist) => (
-          <li key={artist.id}>
+          <li id={artist.id}>
             {artist.name}
             <button
               onClick={() => {
-                setArtists(artists.filter((a) => a.id !== artist.id));
+                setArtists(artists.filter((a) => a.id != artist.id));
               }}
             >
-              Remove
+              Delete
             </button>
           </li>
         ))}

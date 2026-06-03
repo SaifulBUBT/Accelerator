@@ -11,7 +11,7 @@ export default function TransformingItems() {
 
   function handleClick() {
     const nextShapes = shapes.map((shape) => {
-      if (shape.type === "square") {
+      if (shape.type == "square") {
         return shape;
       } else {
         return {
@@ -20,9 +20,9 @@ export default function TransformingItems() {
         };
       }
     });
-
     setShapes(nextShapes);
   }
+
   return (
     <>
       <button onClick={handleClick}>Move circles down!</button>
@@ -31,13 +31,13 @@ export default function TransformingItems() {
         <div
           key={shape.id}
           style={{
+            background: "purple",
+            width: "20px",
+            height: "20px",
             position: "absolute",
             left: shape.x,
             top: shape.y,
-            width: 20,
-            height: 20,
-            backgroundColor: "purple",
-            borderRadius: shape.type === "circle" ? "50%" : "0",
+            borderRadius: shape.type == "circle" ? "50px" : "",
           }}
         ></div>
       ))}
