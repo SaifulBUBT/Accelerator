@@ -7,6 +7,7 @@
 // import List from "./Arrays_in_state/AddingItems";
 import RemoveItems from "./Arrays_in_state/RemoveItems";
 
+import ReplacingItems from "./Arrays_in_state/ReplacingItems";
 import TransformingItems from "./Arrays_in_state/TransformingItems";
 import UpdatingObjectsInsideArray from "./Arrays_in_state/UpdatingObjectsInsideArray";
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <RemoveItems />
       <TransformingItems />
       <UpdatingObjectsInsideArray />
+      <ReplacingItems />
     </div>
   );
 }
