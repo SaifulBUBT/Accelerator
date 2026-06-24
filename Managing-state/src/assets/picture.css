@@ -1,0 +1,11 @@
+.background.background--active {
+  background: #ef6aef;
+}
+
+.background {
+  background: #f8fbd9;
+}
+
+img.picture.picture--active {
+  border: 10px solid #ddd;
+}
