@@ -22,9 +22,10 @@ export default function Picture() {
           e.stopPropagation();
           setIsActive(true);
         }}
-        alt="Rainbow houses in Kampung Pelangi, Indonesia"
+        alt="Rainbow houses in "
         src="https://react.dev/images/docs/scientists/5qwVYb1.jpeg"
       />
+      <img src="https://react.dev/images/docs/scientists/5qwVYb1.jpeg" alt="" />
     </div>
   );
 }
